@@ -1,0 +1,20 @@
+header {
+    text-align: center;
+    font-family:cursive;
+    color: #ff5866;
+}
+body {
+    background-color: #b2cefe;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+ul {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, td {
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 2px;
+    text-align: center;
+}

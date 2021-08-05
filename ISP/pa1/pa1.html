@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<!-- metadata -->
+<head>
+  <meta name="author" content="Kyle Lugo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- external css -->
+  <link rel="stylesheet" href="styles.css">
+
+  <!-- internal css-->
+  <style>
+  * {box-sizing: border-box;}
+  
+  #jk {font-size: 11px; text-align: center;}
+  #p1 {color:darkred;}
+
+  p.osu {color:palevioletred;}
+  p.lol {color:rebeccapurple;}
+  p.boats {color:royalblue;}
+  
+  h2 {color: hsl(255, 40%, 60%);}
+  hr {background-color: black; height: 1px; border: 0;}
+  
+  .main {width: 79%; float: left;}
+  .box {border: 2px solid #8ae243; background-color: #baed91;} 
+  .sidebar {width: 20%; float: right; height: 500px; background-color: whitesmoke; color: black;}
+  
+  input:focus {color: pink; background-color: black;}
+  
+  #Aqua {
+    width: 150px; 
+    height: 100px; 
+    float: left;
+    animation-name: meme;
+    animation-duration: 0.25s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+  }
+  @keyframes meme {
+    from {float: left;}
+    to {float: right;}
+  }
+  </style>
+
+  <title>Kyle Lugo pa1</title>
+</head>
+
+<body>
+  <header> 
+    <h1> pa1 website </h1> 
+    <p> developed by Kyle Lugo </p>
+    <p> finished on September 11, 2019 at 3:40pm </p>
+    <hr>
+  </header>
+
+  <div class="sidebar box">
+    <p style="text-align: center;"> If you'd like to make your own site like 
+      this, please register below. </p>
+    <form style="text-align: center;">
+      username: <br>
+      <input type="text" name="username"> <br>
+      password: <br>
+      <input type="text" name="password"> <br>
+      <input type="submit" value="click me">
+    </form>
+    <br><br><br> 
+    <p id="jk"> <del>jk it doesn't work.</del> </p>
+    <br><br><br>
+    <div id="Aqua"> 
+      <img src="https://i0.wp.com/www.surrealresolution.com/wp-content/uploads/2017/02/KS-6-1.jpg"
+      alt="screaming Aqua" style="width: 150px; height: 100px;"> 
+    </div>
+  </div>
+
+  <div class="main">
+    <p id="p1">Welcome to my website. Here I will show off some of the games I like to play.</p>
+
+    <div class="box">
+      <h2>osu!</h2>
+      <hr>
+      <p> <a href="https://osu.ppy.sh" title="the osu! logo" target="_blank">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/d/d3/Osu%21Logo_%282015%29.png" 
+        alt="the osu! logo" style="width: 200px; height: 200px; float:right;"> </a>
+      </p>
+      <p class="osu">
+        osu! is a free to play rhythm game for computers that I have been playing for a few years.
+        It is a community-driven game where users can upload songs and make what are known as maps
+        (charts in other rhythm games) for them, which are the 'levels' that players play, and are
+        supposed to be reflective of the song. <br>
+        The music that gets uploaded to the game is very diverse and can range from anything from 
+        pop to rock to genres you might not have even heard of, like artcore or neurofunk. There's music
+        from every genre, so there's always something you can enjoy and new music for you to discover.
+        In fact, some of my favorite songs I would not have discovered if it were not for osu!
+      </p>
+      <blockquote cite="https://osu.ppy.sh" style="text-align: right;">  
+        the bestest free-to-win rhythm game <br>
+            <span style="font-size: 12px; color:hotpink;"> rhythm is just a click away </span>
+      </blockquote>
+      <p> Some of my favorite maps: </p>
+      <ul>
+        <li> <a href="https://osu.ppy.sh/beatmapsets/795610#osu/1670874" target="_blank"> 
+          Be Wild - Camellia ft. Yukacco </a> 
+        <br> <audio controls> <source src="https://b.ppy.sh/preview/795610.mp3"
+          type="audio/mpeg"> audio unable to load. </audio> </li>
+        <li> <a href="https://osu.ppy.sh/beatmapsets/473364#osu/1011471" target="_blank">
+          Midnight Riders (kamome sano remix) - gya9 </a> 
+        <br> <audio controls> <source src="https://b.ppy.sh/preview/473364.mp3"
+          type="audio/mpeg"> audio unable to load. </audio> </li>
+        <li> <a href="https://osu.ppy.sh/beatmapsets/616544#osu/1300260" target="_blank">
+          Moonbound feat. Yukacco (USAO remix) - aran </a> 
+        <br> <audio controls> <source src="https://b.ppy.sh/preview/616544.mp3"
+          type="audio/mpeg"> audio unable to load. </audio> </li>
+        <li> <a href="https://osu.ppy.sh/beatmapsets/464398#osu/994370" target="_blank">
+          Hana ni Natta Shounen no Shinwa - Ceui </a> 
+        <br> <audio controls> <source src="https://b.ppy.sh/preview/464398.mp3"
+          type="audio/mpeg"> audio unable to load. </audio> </li>
+        <li> <a href="https://osu.ppy.sh/beatmapsets/413386#osu/896430" target="_blank">
+          Amber's Love Was Like A Marble (Billain Remix) - Rawtekk </a> 
+        <br> <audio controls> <source src="https://b.ppy.sh/preview/413386.mp3"
+          type="audio/mpeg"> audio unable to load. </audio> </li>
+      </ul>
+    </div>
+
+    <div class="box">
+      <h2>League Of Legends</h2>
+      <hr>
+      <p class="lol">
+        League Of Legends (commonly referred to as 'LoL' or just 'League') is one of the most 
+        popular free to play games in the world right now. It is a 'MOBA' where 2 teams of 5 
+        players try to work together to systematically destroy the enemy base, winning the game. 
+        Each player plays as a 'champion' (or 'champ' for short), with each champ having 4 usable
+        abilities and 1 passive ability. <br>
+        There are currently 145 different champions in the game, with each champion designed
+        to play in 1 or 2 different roles.
+
+      </p>
+      <p> My Top 5 Favorite Champions </p>
+      <ol type="1">
+        <li> <span style="color:goldenrod; font-size: 28px;"> Lux </span> </li>
+        <li> <span style="color:rgb(153, 141, 158); font-size: 24px;"> Miss Fortune </span> </li>
+        <li> <span style="color:rgb(155, 39, 39); font-size: 20px;"> Lissandra </span> </li>
+        <li> Illaoi </li>
+        <li> Evelynn </li>
+      </ol>
+      <p>Gameplay video of my favorite champion</p>
+      <iframe width="560" height="315" 
+        src="https://www.youtube.com/embed/a-eao06baVY" 
+        frameborder="0" allow="accelerometer; autoplay; 
+        encrypted-media; gyroscope; picture-in-picture" 
+        allowfullscreen>
+      </iframe>
+    </div>
+
+    <div class="box">
+      <h2>Azur Lane</h2>
+      <hr>
+      <p class="boats">
+        Azur Lane is a free to play mobile game that plays like a Danmaku (bullet hell) game. 
+        You control your characters using a virtual joystick to dodge enemy bullets while your
+        characters are shooting back at the enemy. <br>
+        The characters in this game are anthromorphized World War II warships that are named 
+        and characterized after various old warships from different countries, done in an anime 
+        style. For example, the ingame character Laffey is based off of the USS Laffey, a Benson-
+        class destroyer that served the US Navy during WWII. <br>
+        The developers like to make alot of historical references with the in-game characters
+        whenever they can. With Laffey, they decided to make her an alchoholic in-game to reference
+        the fact that alot of the sailors on the historical USS Laffey were also alchoholics, who 
+        went so far as to drink the fuel used for the ship's torpedoes after filtering it, since 
+        the fuel was composed of 90% alchohol. <br>
+        Another historical reference that I like is that the character design of the in-game HMS 
+        Victorious (an Illustrious-class Aircraft Carrier developed by the British Royal Navy) 
+        was inspired by the design used for the historical HMS Victorious's ship badge. <br>
+        <br> The game uses 4 main categories of ships: Aircraft Carriers, Battleships, Cruisers, and
+        Destroyers. Aircraft Carriers and Battleships are the big heavy hitters that have alot of health
+        and deal alot of damage, but they are slow and their damage only comes in bursts so they
+        need protecting. This protection comes from Cruisers and Destroyers who are much smaller
+        but faster and deal more consistent damage over time. They are the ones you control the movement of 
+        using the virtual joystick, allowing them to avoid enemy fire (unlike Carriers and Battleships). <br>
+        Battle is done using fleets of ships that you put together. Each fleet has 2 parts to it. 
+        There is a backline referred to as the 'Main Fleet' and a frontline referred to as the 'Escort 
+        Fleet'. The Main Fleet consists of Aircraft Carriers and Battleships, while the Escort Fleet
+        consists of Cruisers and Destroyers. Each part can contain up to 3 ships, for a total of 
+        6 ships that you can take into battle. 
+      </p>
+      <table>
+        <caption> My main fleet for battles </caption>
+        <tr>
+          <td> Main <br> Fleet </td>
+          <td>  <a href="https://azurlane.koumakan.jp/Shouhou" title="IJN Shouhou" target="_blank">
+                  <img src="https://azurlane.koumakan.jp/w/images/8/86/ShouhouIcon.png" 
+                  alt="IJN Shouhou"> </a>
+          </td>
+          <td>  <a href="https://azurlane.koumakan.jp/Duke_of_York" title="HMS Duke Of York" target="_blank">
+                  <img src="https://azurlane.koumakan.jp/w/images/a/a5/Duke_of_YorkIcon.png" 
+                  alt="HMS Duke Of York"> </a>
+          </td>
+          <td>  <a href="https://azurlane.koumakan.jp/Saratoga" title="USS Saratoga" target="_blank">
+                  <img src="https://azurlane.koumakan.jp/w/images/a/ae/SaratogaIcon.png" 
+                  alt="USS Saratoga"> </a>
+          </td>
+        </tr>
+        <tr>
+          <td> Escort <br> Fleet </td>
+          <td>  <a href="https://azurlane.koumakan.jp/Portland" title="USS Portland" target="_blank">
+                  <img src="https://azurlane.koumakan.jp/w/images/6/6d/PortlandIcon.png" 
+                  alt="USS Portland"> </a>
+          </td>
+          <td>  <a href="https://azurlane.koumakan.jp/Laffey" title="USS Laffey" target="_blank">
+                  <img src="https://azurlane.koumakan.jp/w/images/5/54/LaffeyIcon.png" 
+                  alt="USS Laffey"> </a>
+          </td>
+          <td>  <a href="https://azurlane.koumakan.jp/San_Diego" title="USS San Diego" target="_blank">
+                  <img src="https://azurlane.koumakan.jp/w/images/c/c2/San_DiegoIcon.png" 
+                  alt="USS San Diego"> </a>
+          </td>
+        </tr>
+      </table>
+    </div>
+  </div>
+</body>
+</html>

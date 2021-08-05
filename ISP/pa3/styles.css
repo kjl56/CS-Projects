@@ -1,0 +1,38 @@
+* {
+    box-sizing: border-box;
+}
+header {
+    text-align: center;
+    font-family:cursive;
+    color: #ff5866;
+}
+h2 {
+    color: hsl(255, 40%, 60%);
+}
+body {
+    background-color: #b2cefe;
+    padding: 5px;
+    font-size: 16px;
+    margin: 5px;
+}
+.box {
+    border: 2px solid #8ae243; 
+    background-color: #baed91;
+    padding: 5px;
+    margin: 0px;
+} 
+hr {
+    background-color: black; 
+    height: 1px; 
+    border: 0;
+}
+ul, ol {
+    font-family: Arial, Helvetica, sans-serif;
+}
+table, td {
+    background-color: white;
+    border: 1px solid gray;
+    border-collapse: collapse;
+    padding: 2px;
+    text-align: center;
+}

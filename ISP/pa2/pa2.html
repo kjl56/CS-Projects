@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+  <meta name="author" content="Kyle Lugo">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <script src="pa2scripts.js"> </script>
+
+  <link rel="stylesheet" href="styles.css"> 
+  <style>
+
+  </style>
+
+</head>
+<body>
+<div id="body">
+  <header style="z-index: 3;">
+      <h1>pa2 website</h1>
+      <p>developed by Kyle Lugo</p>
+      <p>finished on September 0, 2019 at 00:00pm</p>
+      <p>current date and time: <span id="Date"> unable to get current date and time </span></p>
+      <hr>
+  </header>
+
+  <!-- factorial calculator -->
+  <div class="box" style="position: absolute; left: 5px; text-align: center; z-index: 1;">
+    <h2>factorial calculator</h2>
+    <form onsubmit="return false">
+      <!-- prompt user for positive number -->
+      please input a positive number:<br><br>
+      <!-- default input of 8 in text box -->
+      <input type="text" name="num" value="8" id="inputNum">
+      <!-- compute factorial with function call -->
+      <button type="button" onclick="checkValue(document.getElementById('inputNum').value)"> compute! </button>
+    </form>
+    <br>
+    <div id="factorial" style="color: brown;"></div>
+  </div>
+
+  <!-- email address validator -->
+  <div class="box" style="position: absolute; right: 5px; text-align: center; z-index: 2">
+    <h2>email address validator</h2>
+    <form onsubmit="return false">
+      <!-- text box for user to enter email address -->
+      this text box will validate your email after clicking the button:<br><br>
+      <input type="email" name="userEmail" value="" id="firstInputEmail">
+      <!-- validate email when user clicks on a “validate” button -->
+      <button type="button" onclick="checkEmailStatic(document.getElementById('firstInputEmail').value)"> validate </button>
+    </form>
+    <br>
+    <div id="firstEmailResult" style="color: brown;"></div>
+    <br>
+
+    <form onsubmit="return false">
+      <!-- second text box for user to enter email address -->
+      this text box will validate your email as you type:<br><br>
+      <!-- validate email as user types -->
+      <input type="email" name="secondEmail" value="" id="secondInputEmail" oninput="checkEmailDynamic(value)">
+    </form>
+    <br>
+    <div id="secondEmailResult" style="color: brown;"></div>
+    <button type="button" onclick="moveImage(event)">movePic</button>
+  </div>
+
+  <!-- interactive animation -->
+  
+  <!-- add small image to page --> 
+  <img id="picture" src="https://i0.wp.com/www.surrealresolution.com/wp-content/uploads/2017/02/KS-6-1.jpg" 
+      alt="screaming Aqua" style="width: 300px; height: 200px; z-index: 0; position: absolute; top: 500px; left: 500px;"> 
+  <!-- when user clicks on page, move image to cursor location -->
+  <!-- move has to be smooth  -->
+</div>  
+</body>
+</html>
