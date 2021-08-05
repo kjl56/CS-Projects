@@ -1,0 +1,34 @@
+League of Legends Match Analyzer
+
+League of Legends is an online multiplayer game that pits 2 teams of 5 players 
+against each other with the goal of destroying the enemy's base. Within a match, players
+can strenghthen themselves by leveling up, earning gold to buy items, and taking objectives.
+
+Riot Games, the developer of the game, provides access to various statistics about each
+match that can be accessed through their API. The data that is used for this project comes from 
+this API. 
+
+The data is stored as a csv file with 50 different catagories for each individual match.
+The match data comes from the top 3 rank brackets on the North American server, consisting of 
+the ~5000 best players on the server.
+
+The categories are as follows: gameId, gameDuraton, blueWins, blueFirstBlood, blueFirstTower,
+blueFirstBaron, blueFirstDragon, blueFirstInhibitor, blueDragonKills, blueBaronKills,
+blueTowerKills, blueInhibitorKills, blueWardPlaced, blueWardkills, blueKills, blueDeath, 
+blueAssist, blueChampionDamageDealt, blueTotalGold, blueTotalMinionKills, blueTotalLevel,
+blueAvgLevel, blueJungleMinionKills, blueKillingSpree, blueTotalHeal, blueObjectDamageDealt,
+redWins, redFirstBlood, redFirstTower, redFirstBaron, redFirstDragon, redFirstInhibitor,
+redDragonKills, redBaronKills, redTowerKills, redInhibitorKills, redWardPlaced, redWardkills,
+redKills, redDeath, redAssist, redChampionDamageDealt, redTotalGold, redTotalMinionKills, 
+redTotalLevel, redAvgLevel, redJungleMinionKills, redKillingSpree, redTotalHeal, redObjectDamageDealt.
+
+The project is written with MPI in the C language. The code was executed on the knuth server
+setup for this class.
+
+Their are two tasks that can be run in the program on any of the 50 categories of data. When the
+tasks are ran, MPI parallelizes the data among the threads to perform the calculations faster. 
+
+The performance of the program tasks can be viewed in the included performance.txt. From what has 
+been measured, the program tasks are not efficient in its parallelization. Efficiency is lost whenever
+the thread count is increased, how some small amount of efficiency seems to be gained when increasing 
+the amount of data that is processed by a significant amount, just not as much as would be liked.
