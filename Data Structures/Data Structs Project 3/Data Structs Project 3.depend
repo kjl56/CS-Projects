@@ -1,0 +1,44 @@
+# depslib dependency file v1.0
+1542195220 source:/media/redglaceon/F50A-CB87/Data Structs Project 3/sorting.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<vector>
+
+1542231928 source:/home/redglaceon/Desktop/Data Structs Project 3/sorting.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<vector>
+	"heapsort.h"
+	"insertsort.h"
+	"mergesort.h"
+	"quicksort.h"
+
+1542231597 /home/redglaceon/Desktop/Data Structs Project 3/heapsort.h
+
+1542232067 /home/redglaceon/Desktop/Data Structs Project 3/insertsort.h
+
+1542232037 /home/redglaceon/Desktop/Data Structs Project 3/mergesort.h
+
+1542233489 /home/redglaceon/Desktop/Data Structs Project 3/quicksort.h
+
+1542239873 source:c:\users\ashpi\desktop\cs projects\data structures\data structs project 3\sorting.cpp
+	<iostream>
+	<fstream>
+	<ctime>
+	<vector>
+	<stdlib.h>
+	"heapsort.h"
+	"insertsort.h"
+	"mergesort.h"
+	"quicksort.h"
+
+1542249596 c:\users\ashpi\desktop\cs projects\data structures\data structs project 3\heapsort.h
+
+1542250066 c:\users\ashpi\desktop\cs projects\data structures\data structs project 3\insertsort.h
+
+1542250036 c:\users\ashpi\desktop\cs projects\data structures\data structs project 3\mergesort.h
+
+1542238809 c:\users\ashpi\desktop\cs projects\data structures\data structs project 3\quicksort.h
+

@@ -1,0 +1,90 @@
+# depslib dependency file v1.0
+1540270263 source:c:\users\ashpi\desktop\cs projects\data structures\data structs project 2\empdriver.cpp
+	"empmaps.h"
+	"Employee.h"
+	<iostream>
+	<ctime>
+
+1540222600 
+
+1540225226 c:\users\ashpi\desktop\cs projects\data structures\data structs project 2\empmaps.h
+	"Employee.h"
+	<vector>
+	<map>
+	<unordered_map>
+
+1540225201 _map>
+
+1540222602 c:\users\ashpi\desktop\cs projects\data structures\data structs project 2\employee.h
+	<iostream>
+	<string>
+
+1540222608 source:c:\users\ashpi\desktop\cs projects\data structures\data structs project 2\employee.cpp
+	"Employee.h"
+
+1540222606 h"
+
+1540269766 source:c:\users\ashpi\desktop\cs projects\data structures\data structs project 2\empmaps.cpp
+	"Employee.h"
+	<string>
+	<vector>
+	<fstream>
+	<map>
+	<unordered_map>
+	<sstream>
+	<utility>
+
+1540204608 source:/media/redglaceon/F50A-CB87/Data Structs Project 2/Employee.cpp
+	"Employee.h"
+
+1540204602 /media/redglaceon/F50A-CB87/Data Structs Project 2/Employee.h
+	<iostream>
+	<string>
+
+1540213586 source:/media/redglaceon/F50A-CB87/Data Structs Project 2/empdriver.cpp
+	"empmaps.h"
+	"Employee.h"
+	<iostream>
+	<ctime>
+
+1540207226 /media/redglaceon/F50A-CB87/Data Structs Project 2/empmaps.h
+	"Employee.h"
+	<vector>
+	<map>
+	<unordered_map>
+
+1540234967 source:/media/redglaceon/F50A-CB87/Data Structs Project 2/empmaps.cpp
+	"Employee.h"
+	<string>
+	<vector>
+	<fstream>
+	<map>
+	<unordered_map>
+
+1540213586 source:/home/redglaceon/Desktop/Data Structs Project 2/empdriver.cpp
+	"empmaps.h"
+	"Employee.h"
+	<iostream>
+	<ctime>
+
+1540207226 /home/redglaceon/Desktop/Data Structs Project 2/empmaps.h
+	"Employee.h"
+	<vector>
+	<map>
+	<unordered_map>
+
+1540204602 /home/redglaceon/Desktop/Data Structs Project 2/Employee.h
+	<iostream>
+	<string>
+
+1540204608 source:/home/redglaceon/Desktop/Data Structs Project 2/Employee.cpp
+	"Employee.h"
+
+1540237794 source:/home/redglaceon/Desktop/Data Structs Project 2/empmaps.cpp
+	"Employee.h"
+	<string>
+	<vector>
+	<fstream>
+	<map>
+	<unordered_map>
+

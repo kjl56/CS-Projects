@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1538435454 source:c:\users\ashpi\desktop\cs projects\data structures\data structs project 1\components.cpp
+	<iostream>
+	<string>
+	<vector>
+	<list>
+	<fstream>
+	<sstream>
+
+1538417350 c:\users\ashpi\desktop\cs projects\data structures\data structs project 1\components.hpp
+	<list>
+
+1538368461 source:c:\users\ashpi\desktop\cs projects\data structures\data structs project 1\main.cpp
+	<iostream>
+	"components.hpp"
+
